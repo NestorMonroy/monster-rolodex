@@ -19,6 +19,7 @@ class App extends Component {
   onSearchChange = e => {
     this.setState({ searchField: e.target.value });
   };
+  
 
   componentDidMount(){
     fetch('https://jsonplaceholder.typicode.com/users')
